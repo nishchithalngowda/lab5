@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>registeed data</title>
+    <title>window.location</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+  <section align="center">
+
+  </section>
+
+  <marquee width="60%" direction="right" height="100px">
+    <h3>
+      <span style="color:blue"> registred succefully</span>
+     </h3>
+  </marquee>
+
+    <b><h2> PLEASE SPEND SUFFICIENT TIME TO READ ALL THESE BELOW MENTIONED DETAILS, TO AVOID ANY KIND OF LOSS, CONFUSION OR MISUNDERSTANDINGS...</h2>
+    </b>
+    <ol>
+      <li>Student appearing for exam who get passing score and applies for certificate can receive their certificate within 10 to 15 working days. Student enrolled for One-year courses, and appeared for First Sem. will receive the only online result,  the certificate will be sent after the second sem. exam.), IFS team will dispatch it within 10-15 working days.</li>
+      <li>If any student fail to apply for certificate then result will not be processed and certificate will not be dispatched. After successful online paper submission, your result will be displayed on the screen. After Finishing the exam, take a screenshot or photograph of result page and apply with below links for result confirmation. </li>
+      If a student passes the exam, then apply through the following link - http://www.dlc.co.in/form/view.php?id=28
+<br>
+If a student is failed in the exam, then apply through the following link -  http://www.dlc.co.in/form/view.php?id=9
+<li>Do not appear for exam before or after exam time. Login is for single use only. It will be deactivated automatically after first use.
+</li>
+<li>After paper submission, student will receive a copy of your online objective paper along with result. If you do not receive an email, please check your Junk Mail/Spam folder. If you do not receive it within 10 minute, it means your paper is not submitted properly or there is problem in your submission. You may require to re-appear for this paper / exam. In such case contact our support team ASAP. No any complaint or request will be accepted later.</li>
+<li>Exam rules are very strict and important part so it must considered with priority and any type of negligence is not acceptable.
+</li>
+
+      </ol>
+
+
+      <h2><span style="color:red">GOOD</span>LUCK
+        <span style="color:green">!!!!!</span>...........................</h2>
+
+    <ol>
+      <li>please wait one second</li>
+      <li>we will redirecting you to home page</li>
+      <li>plaese click READY</li>
+      </ol>
+      <br>
+      <h2> It's the exam time....,<br>It's time to show<br>
+        the world how good<br>you are...,BEST OF KUCK!</h2>
+      <object data="flower.mp4" width="400" height="300"></object>
+
+      <input type="button" value ="READY" onclick="myFunction()" style="margin-left: 200px;background: deeppink">
+      <script>
+      function myFunction(){
+        window.location="home.html"
+      }
+      </script>
+
+
+
+</html>
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
